@@ -1,0 +1,22 @@
+19:43:19.587852 git.c:439               trace: built-in: git ls-remote origin
+19:43:19.587978 run-command.c:663       trace: run_command: GIT_DIR=.git git-remote-https origin https://github.com/graytower/SparseFlooding.git
+* Couldn't find host github.com in the .netrc file; using defaults
+*   Trying 127.0.0.1:7890...
+* TCP_NODELAY set
+* Connected to 127.0.0.1 (127.0.0.1) port 7890 (#0)
+* allocate connect buffer!
+* Establish HTTP proxy tunnel to github.com:443
+> CONNECT github.com:443 HTTP/1.1
+Host: github.com:443
+User-Agent: git/2.25.1
+Proxy-Connection: Keep-Alive
+
+< HTTP/1.1 200 Connection established
+< Connection: close
+< 
+* Proxy replied 200 to CONNECT request
+* CONNECT phase completed!
+* found 442 certificates in /etc/ssl/certs
+* ALPN, offering http/1.1
+* CONNECT phase completed!
+* CONNECT phase completed!
